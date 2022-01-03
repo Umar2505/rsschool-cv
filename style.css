@@ -1,3 +1,119 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #242582;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav {
+    background-color: #242582;
+    color: #F64C72;
+    display: flex;
+    position: fixed;
+    width: 1400px;
+    justify-content: space-between;
+    height: auto;
+}
+
+.anchors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    font-size: 30px;
+}
+
+.logo {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text-big {
+    font-size: 40px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #F64C72;
+}
+
+.links:hover {
+    border-bottom:3px solid #F64C72;
+    transition: 150ms;
+    color: #F64C72;
+}
+
+header {
+    padding-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-images {
+    border-radius: 50%;
+    border-left:15px solid #F64C71;
+    border-right: 15px solid #F64C71;
+    border-bottom: 10px solid #242582;
+    border-top: 10px solid #242582;
+}
+
+@keyframes typing {
+    0% { 
+        width: 0;
+    }
+    33% { 
+        width: 100%;
+    }
+    100% { 
+        width: 100%;
+    }
+}
+
+@keyframes typer {
+    0% {
+        border:0px;
+    }
+    100%{
+        border-right: 0.3em solid black;
+    }
+}
+
+.header-title {
+    font-size: 3rem;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .05em solid black;
+    width: 0;
+    animation: typing 3s steps(18, end) forwards;
+}
+
 h1 {
-    color: blue;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.header-text {
+    font-size: 20px;
 }
