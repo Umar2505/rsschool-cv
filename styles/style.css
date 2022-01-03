@@ -5,13 +5,16 @@
     font-family: 'Poppins', sans-serif;    
 }
 
-body {
+.container {
+    margin: 0 auto;
+    width: 100%;
     background-color: #1A1A1C;
 }
 
-.container {
+.container-full {
     margin: 0 auto;
     width: 1400px;
+    background-color: #1A1A1C;
 }
 
 a {
@@ -224,10 +227,9 @@ hr {
 }
 
 .thirdLink {
-    border: 3px solid #F64C72;
     border-radius: 10px;
     padding: 40px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .thirdLinkListStyle {
@@ -248,3 +250,28 @@ hr {
     padding:0px;
 }
 
+h6 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.fourthLink {
+    padding-bottom: 20px;
+}
+
+.footer {
+    background-color: #3c3c3f;
+    width: 100%;
+    margin: 0 auto;
+    height: 200px;
+}
+
+footer {
+    background-color: #3c3c3f;
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
