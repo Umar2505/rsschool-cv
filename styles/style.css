@@ -17,6 +17,10 @@
     background-color: #1A1A1C;
 }
 
+.logo-image {
+    width: 40px;
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -29,15 +33,19 @@ nav {
     position: fixed;
     width: 1400px;
     justify-content: space-between;
-    padding: 20px;
 }
 
 .anchors {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    width: 80%;
     font-size: 30px;
+    list-style: none;
+}
+
+.anchors_lin {
+    padding: 0px 20px;
 }
 
 .logo {
@@ -78,6 +86,7 @@ header {
     border-right: 15px solid #F64C71;
     border-bottom: 10px solid #1A1A1C;
     border-top: 10px solid #1A1A1C;
+    width: 250px;
 }
 
 @keyframes typing {
@@ -93,7 +102,7 @@ header {
 }
 
 .header-title {
-    font-size: 2rem;
+    font-size: 20px;
     overflow: hidden;
     white-space: nowrap;
     border-right: .4em solid white;
@@ -102,7 +111,7 @@ header {
 }
 
 .header-titles {
-    font-size: 5rem;
+    font-size: 3rem;
     overflow: hidden;
     white-space: nowrap;
 }
@@ -114,10 +123,6 @@ h1 {
 }
 
 h2 {
-    margin: 0px;
-}
-
-h4 {
     margin: 0px;
 }
 
@@ -194,8 +199,8 @@ hr {
 }
 
 .block {
-	width: 100px;
-    height: 100px;
+	width: 60px;
+    height: 60px;
     background: #F64C72;
     border-radius: 60px;
     display: flex;
@@ -204,13 +209,13 @@ hr {
 }
 
 .first_line {
-    height: 150px;
+    height: 180px;
     border-left:3px solid #F64C72;
     margin-left: 350px;
 }
 
 .second_line {
-    height: 80px;
+    height: 90px;
     border-left:3px solid #F64C72;
     margin-left: 250px;
 }
@@ -223,7 +228,7 @@ hr {
 
 .secondLinkListStyle li {
     margin: 0px;
-    padding: 0px;
+    padding: 10px 0px;
 }
 
 .thirdLink {
@@ -274,4 +279,18 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+#github:hover {
+    width: 70px;
+    transition: 2s;
+}
+
+.code {
+    font-size: 20px;
+    color: #fff;
+} 
+
+.telegram {
+    width: 40px;
 }
